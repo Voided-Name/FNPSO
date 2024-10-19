@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/templates/</loc>
+    <loc>https://voided-name.github.io/FNPSO/templates/</loc>
     <lastmod>2024-10-19T05:51:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://voided-name.github.io/FNPSO/</loc>
     <lastmod>2024-10-19T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/fnpso_start_of_development/</loc>
+    <loc>https://voided-name.github.io/FNPSO/posts/fnpso_start_of_development/</loc>
     <lastmod>2024-10-19T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://voided-name.github.io/FNPSO/posts/</loc>
     <lastmod>2024-10-19T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/index-about/</loc>
+    <loc>https://voided-name.github.io/FNPSO/index-about/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://voided-name.github.io/FNPSO/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://voided-name.github.io/FNPSO/tags/</loc>
   </url>
 </urlset>

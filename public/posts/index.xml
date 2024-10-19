@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on FNPSO</title>
-    <link>https://example.org/posts/</link>
+    <link>https://voided-name.github.io/FNPSO/posts/</link>
     <description>Recent content in Posts on FNPSO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 19 Oct 2024 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://voided-name.github.io/FNPSO/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FNPSO Start of Webiste Development</title>
-      <link>https://example.org/posts/fnpso_start_of_development/</link>
+      <link>https://voided-name.github.io/FNPSO/posts/fnpso_start_of_development/</link>
       <pubDate>Sat, 19 Oct 2024 00:00:00 +0800</pubDate>
-      <guid>https://example.org/posts/fnpso_start_of_development/</guid>
+      <guid>https://voided-name.github.io/FNPSO/posts/fnpso_start_of_development/</guid>
       <description>Welcome A centralized website for streamlining communication, simplifying submissions, and providing access to essential resources is in development.&#xA;The current tech stack uses Hugo for static site generation and Github Pages for providing hosting. For the mean time, the form or file submissions will utilize Google Forms. For any suggestions or inquiries, feel free to reach out to us via email.</description>
     </item>
   </channel>

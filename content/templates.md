@@ -7,9 +7,7 @@ type = "withForm"
 
 ## Templates
 
-### [Communication Letter Template](/templates/comlet.docx)
-
-Formal guideline document for using the official NEUST communication template
+### [Communication Letter Template](/FNPSO/templates/comlet.docx)
 
 ## [Submit Forms or Files](https://forms.gle/cnoVMGVkiG6BxghLA)
 
