@@ -1,0 +1,3 @@
+{{ define "main" }} {{ if eq .Type "withForm" }} {{- partial "withForm.html" .
+-}} {{- partial "toc.html" . -}} {{ end }} {{ if eq .Type "page" }} {{- partial
+"page.html" . -}} {{- partial "toc.html" . -}} {{ end }} {{ end }}

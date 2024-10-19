@@ -5,6 +5,16 @@ enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"
 title = "FNPSO"
+timeZone = "Local"
+
+[params]
+  avatarURL = "/images/fnpso.jpg"
+  avatarSize = "size-xl"
+  description = "For the wellfare of the students"
+  footer = "Federation of Non-Political Student Organization"
+  socialIcons = [
+        {name = "facebook", url = "https://www.facebook.com/FNPSO"},
+  ]
 
 [menu]
   [[menu.main]]
@@ -22,18 +32,24 @@ title = "FNPSO"
     name = "Tags"
     url = "/tags/"
     weight = 2
-    
+
   [[menu.main]]
+    name = "Resources"
+    url = "/templates/"
+
+    weight = 3
+    
+# [[menu.main]]
     # Unique identifiers are required for menu entries without a name property,
     # or for menu entries which re-use a name
-    identifier = "github"
+# identifier = "facebook"
 
     # Absolute URL to external resource
-    url = "https://github.com"
-    weight = 3
+# url = "https://www.facebook.com/FNPSO"
+# weight = 4
     
     # Surround the menu entry (or name) with HTML content, such as Feather
     # icons: https://feathericons.com
-    pre = "<span data-feather='github'></span>"
-    post = ""
+# pre = "<span data-feather='facebook'></span>"
+# post = ""
 

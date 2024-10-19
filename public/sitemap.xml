@@ -5,9 +5,18 @@
     <loc>https://example.org/templates/</loc>
     <lastmod>2024-10-19T05:51:16+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
     <loc>https://example.org/</loc>
+    <lastmod>2024-10-19T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/fnpso_start_of_development/</loc>
+    <lastmod>2024-10-19T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/</loc>
+    <lastmod>2024-10-19T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/index-about/</loc>
+  </url><url>
+    <loc>https://example.org/categories/</loc>
   </url><url>
     <loc>https://example.org/tags/</loc>
   </url>
