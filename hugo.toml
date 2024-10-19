@@ -8,7 +8,7 @@ title = "FNPSO"
 timeZone = "Local"
 
 [params]
-  avatarURL = "/images/fnpso.jpg"
+  avatarURL = "https://voided-name.github.io/FNPSO/images/fnpso.jpg"
   avatarSize = "size-xl"
   description = "For the wellfare of the students"
   footer = "Federation of Non-Political Student Organization"
