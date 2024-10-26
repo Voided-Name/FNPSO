@@ -7,5 +7,6 @@ module.exports = function (eleventyConfig) {
       input: ".", // Your input directory (root in this case)
       output: "_site", // Your output directory
     },
+    pathPrefix: process.env.ELEVENTY_ENV === "production" ? "/fnpso/" : "/",
   };
 };
