@@ -28,7 +28,7 @@
   </head>
   <body>
     <nav id="navbar">
-      <div class="logo">
+      <div class="logo d-none d-sm-block">
         <a href="#">FNPSO</a>
       </div>
       <ul class="nav-links">
@@ -41,21 +41,21 @@
         </li>
         <li class="{% if title == 'About' %}current-page{% endif %}">
           <a
-            href={{ "about" | url}}
+            href={{ "/about" | url}}
             class="{% if title == 'About' %}current-page-color{% else %}not-selected-page{% endif %}"
             >About</a
           >
         </li>
         <li class="{% if title == 'Posts' %}current-page{% endif %}">
           <a
-            href={{ "posts" | url}}
+            href={{ "/posts" | url}}
             class="{% if title == 'Posts' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Posts</a
           >
         </li>
         <li class="{% if title == 'Resources' %}current-page{% endif %}">
           <a
-            href={{ "resources" | url}}
+            href={{ "/resources" | url}}
             class="{% if title == 'Resources' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Resources</a
           >

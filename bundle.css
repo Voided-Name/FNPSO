@@ -2,8 +2,15 @@
   --dark-adjustable: #151a22;
   --highlight-adjustable: #f3f0e6;
   --highlight-text-adjustable: #151a22;
-  --hero-background: url("assets/images/fog_light.jpg");
+  --hero-background: url("assets/images/mountains.jpg");
   --box-shadow-adjustable: rgb(0, 0, 0) 0px 20px 30px -10px;
+  --highlight-adjustable: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.7) 4%,
+    rgba(255, 255, 255, 0.3)
+  );
+  --hero-about-background: url("assets/images/cloud.jpg");
 }
 
 :where(body) {
@@ -32,6 +39,8 @@ body {
     --dark-adjustable: #0e1117;
     --hero-background: url("assets/images/fog.jpg");
     --box-shadow-adjustable: rgb(255, 255, 255) 0px 20px 30px -10px;
+    --highlight-adjustable: none;
+    --hero-about-background: url("assets/images/silhouette.jpg");
   }
 }
 
@@ -99,6 +108,14 @@ nav {
   background-repeat: no-repeat;
 }
 
+.hero-about {
+  height: calc(100vh - 60px);
+  background-image: var(--hero-about-background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
 .hero-fullscreen-left {
   color: white;
   color: var(--text-color);
@@ -122,4 +139,31 @@ nav {
   color: var(--text-color-opposite);
   background-color: var(--background-color-opposite);
   border: solid 1px var(--background-color-opposite);
+}
+
+mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: var(--highlight-adjustable);
+  -webkit-box-decoration-break: clone;
+  color: var(--text-color);
+  box-decoration-break: clone;
+}
+
+.yellow-highlight {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 0, 0.1),
+    rgba(255, 255, 0, 0.7) 4%,
+    rgba(255, 255, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  color: var(--text-color);
+  box-decoration-break: clone;
 }

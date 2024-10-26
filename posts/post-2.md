@@ -1,5 +1,6 @@
 ---
-title: Mental Health Walk and Unity Walk
+title: Posts
+title_2: Mental Health Walk and Unity Walk
 ---
 
 # WHAT
@@ -12,7 +13,7 @@ title: Mental Health Walk and Unity Walk
 - November 6 (tentative)
 - 7 AM - 11 AM
 
-# WHERE:
+# WHERE
 
 - NEUST Mini-Convention Center
 

@@ -29,28 +29,28 @@
       <ul class="nav-links">
         <li class="{% if title == 'Home' %}current-page{% endif %}">
           <a
-            href={{ "/" | url}}
+            href={{ "/" | url }}
             class="{% if title == 'Home' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Home</a
           >
         </li>
         <li class="{% if title == 'About' %}current-page{% endif %}">
           <a
-            href={{ "about" | url}}
+            href={{ "/about" | url}}
             class="{% if title == 'About' %}current-page-color{% else %}not-selected-page{% endif %}"
             >About</a
           >
         </li>
         <li class="{% if title == 'Posts' %}current-page{% endif %}">
           <a
-            href={{ "posts" | url}}
+            href={{ "/posts" | url}}
             class="{% if title == 'Posts' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Posts</a
           >
         </li>
         <li class="{% if title == 'Resources' %}current-page{% endif %}">
           <a
-            href={{ "resources" | url}}
+            href={{ "/resources" | url}}
             class="{% if title == 'Resources' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Resources</a
           >
@@ -64,9 +64,10 @@
     </nav>
     <main>
       <div class="container">
-        <h1 class="mt-4">{{ title }}</h1>
+        <h1 class="mt-4">{{ title_2 }}</h1>
         <hr />
         {{ content }}
+        <btn class="btn btn-adjustable" onclick="window.history.go(-1)">Back</btn>
       </div>
     </main>
   </body>
