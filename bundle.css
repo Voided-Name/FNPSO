@@ -1,0 +1,125 @@
+:root {
+  --dark-adjustable: #151a22;
+  --highlight-adjustable: #f3f0e6;
+  --highlight-text-adjustable: #151a22;
+  --hero-background: url("../assets/images/fog_light.jpg");
+  --box-shadow-adjustable: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+:where(body) {
+  --background-color: #f3f0e6;
+  --text-color: #151a22;
+  --background-color-opposite: #151a22;
+  --text-color-opposite: #f3f0e6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(body) {
+    --background-color: #151a22;
+    --text-color: #f3f0e6;
+    --background-color-opposite: #f3f0e6;
+    --text-color-opposite: #151a22;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dark-adjustable: #0e1117;
+    --hero-background: url("../assets/images/fog.jpg");
+    --box-shadow-adjustable: rgb(255, 255, 255) 0px 20px 30px -10px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-adjustable);
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav-links li {
+  color: var(--highlight-text-adjustable);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.nav-links .current-page-color {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-links .not-selected-page {
+  color: #f3f0e6;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-links .not-selected-page:hover {
+  font-weight: bold;
+}
+
+.logo a {
+  color: #f3f0e6;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-left: 1em;
+}
+
+.burger {
+  display: none;
+}
+
+.hero-fullscreen {
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--hero-background);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-fullscreen-left {
+  color: white;
+  color: var(--text-color);
+  font-weight: bold;
+  padding: 1em;
+}
+
+.hero-fullscreen-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-fullscreen-logo {
+  max-width: 60%;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-adjustable);
+}
+
+.btn-adjustable {
+  color: var(--text-color-opposite);
+  background-color: var(--background-color-opposite);
+  border: solid 1px var(--background-color-opposite);
+}
