@@ -2,7 +2,7 @@
   --dark-adjustable: #151a22;
   --highlight-adjustable: #f3f0e6;
   --highlight-text-adjustable: #151a22;
-  --hero-background: url("../assets/images/fog_light.jpg");
+  --hero-background: url("assets/images/fog_light.jpg");
   --box-shadow-adjustable: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
@@ -30,7 +30,7 @@ body {
 @media (prefers-color-scheme: dark) {
   :root {
     --dark-adjustable: #0e1117;
-    --hero-background: url("../assets/images/fog.jpg");
+    --hero-background: url("assets/images/fog.jpg");
     --box-shadow-adjustable: rgb(255, 255, 255) 0px 20px 30px -10px;
   }
 }
