@@ -19,7 +19,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <link href="/bundle.css" rel="stylesheet" />
+    <link href={{"/bundle.css" | url}} rel="stylesheet" />
   </head>
   <body>
     <nav id="navbar">
@@ -29,28 +29,28 @@
       <ul class="nav-links">
         <li class="{% if title == 'Home' %}current-page{% endif %}">
           <a
-            href="/"
+            href={{ "/" | url }}
             class="{% if title == 'Home' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Home</a
           >
         </li>
         <li class="{% if title == 'About' %}current-page{% endif %}">
           <a
-            href="/about/"
+            href={{ "about" | url}}
             class="{% if title == 'About' %}current-page-color{% else %}not-selected-page{% endif %}"
             >About</a
           >
         </li>
         <li class="{% if title == 'Posts' %}current-page{% endif %}">
           <a
-            href="/posts/"
+            href={{ "posts" | url}}
             class="{% if title == 'Posts' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Posts</a
           >
         </li>
         <li class="{% if title == 'Resources' %}current-page{% endif %}">
           <a
-            href="/resources/"
+            href={{ "resources" | url}}
             class="{% if title == 'Resources' %}current-page-color{% else %}not-selected-page{% endif %}"
             >Resources</a
           >

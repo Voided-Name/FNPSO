@@ -3,10 +3,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
 
   return {
+    pathPrefix: "FNPSO",
     dir: {
       input: ".", // Your input directory (root in this case)
       output: "_site", // Your output directory
     },
-    pathPrefix: process.env.ELEVENTY_ENV === "production" ? "/fnpso/" : "/",
   };
 };
