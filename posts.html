@@ -6,7 +6,7 @@ title: Posts
 <div class="container mt-5">
   {%- for post in collections.post reversed -%}
   <div class="container">
-    <h2>{{ post.data.title }}</h2>
+    <h2>{{ post.data.title_2 }}</h2>
     <p>{{post.date | date: "%B %d, %Y %I:%M %p"}}</p>
     <p>{{ post.content | strip_html | truncate: 200}}...</p>
     <a href="{{ post.url | url }}" class="btn btn-adjustable">Read</a>
