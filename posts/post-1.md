@@ -1,5 +1,5 @@
 ---
-title: title: Posts
+title: Posts
 title_2: Start of FNPSO Website Development
 ---
 
